@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "shopApp",
-    "slug": "shopApp",
+    "name": "Homie's Cart",
+    "slug": "homies-Cart",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,6 +21,13 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    }, 
+    "android": {
+      "useNextNotificationsApi" : true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor":  "#ffffff"
+      }
     }
   }
 }
